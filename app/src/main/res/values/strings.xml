@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ApprenantsTest</string>
+    <string name="promo">Promo</string>
+    <string name="session">Session</string>
+    <string name="skills">Skills</string>
+
+    <string-array name="promo_spinner">
+        <item>Toutes</item>
+        <item>Lunel</item>
+        <item>Beziers</item>
+        <item>Sparks</item>
+    </string-array>
+
+    <string-array name="session_spinner">
+        <item>Toutes</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="skill_spinner">
+        <item>Tous</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

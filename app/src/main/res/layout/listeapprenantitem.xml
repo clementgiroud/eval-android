@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/laItem_textview_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/laItem_imagebutton_detail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/laItem_textview_prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/laItem_imagebutton_detail"
+        app:layout_constraintTop_toBottomOf="@+id/laItem_textview_nom"
+        app:layout_constraintHorizontal_bias="0.1" />
+
+    <TextView
+        android:id="@+id/laItem_textview_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/laItem_imagebutton_detail"
+        app:layout_constraintTop_toBottomOf="@+id/laItem_textview_prenom"
+        app:layout_constraintHorizontal_bias="0.1" />
+
+    <ImageButton
+        android:id="@+id/laItem_imagebutton_detail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+</android.support.constraint.ConstraintLayout>
